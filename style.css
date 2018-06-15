@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font: normal 16px 'Arial', Halvetica, sand-sarif;
+    color:#333;
+    font-family: 'Bitter', serif;
+}
+
+#particles-js
+{
+background:linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+height: 100vh;
+width: 100vw;
+
+}
+#login
+{   
+    width: 30%;
+    height: 53%;
+    background:white;
+    opacity:0.9;
+    padding:2em;
+    margin-right:10%;
+    border:#ccc 1px solid;
+    position:absolute;
+    top:20%;
+    left:30%;
+    text-align:center;
+    color:#009688;
+    border-radius: .3em;
+}
+#login input[type="text"], #login input[type="password"], #login input[type="submit"],#login input[type="email"],#login button
+{
+    padding:1%;
+   
+    margin:2%;
+    border:1px #ccc solid;
+    width:70%;
+    border-radius: .2em;
+
+}
+a 
+{
+    text-decoration:none;
+    color:teal;
+    font-size:12px;
+}
+#login input[type="submit"]
+{
+    background: #009688;
+    color:white;
+}
+#btn1
+{
+    background:#f44242;
+    color:white;
+}
+#btn2
+{
+    background:#414df4;
+    color:white;
+}
+@media(max-width:700px)
+{
+    #login 
+    {
+        width: 70%;
+        height: 55%;
+        background:white;
+        opacity:0.9;
+        padding:1em;
+        
+        border:#ccc 1px solid;
+        position:absolute;
+        top:20%;
+        left:12%;
+        text-align:center;
+        color:#009688;
+        border-radius: .3em;
+        
+    }
+}
